@@ -1,7 +1,7 @@
-import kcfDefaultStyles from "./stylesheets/style.css";
-import kcfTestUIStyles from "./stylesheets/kcf-test-ui.css";
-import kcfTestTogglerStyles from "./stylesheets/kcf-test-toggler.css";
-import kcfMochaModalStyles from "./stylesheets/mocha-modal.css";
+import kcfDefaultStyles from "./stylesheets/style.css?inline";
+import kcfTestUIStyles from "./stylesheets/kcf-test-ui.css?inline";
+import kcfTestTogglerStyles from "./stylesheets/kcf-test-toggler.css?inline";
+import kcfMochaModalStyles from "./stylesheets/mocha-modal.css?inline";
 
 const shadow = (() => {
   const shadowHost = document.createElement("div");
