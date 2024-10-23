@@ -1,5 +1,5 @@
 import kcfDefaultStyles from "./stylesheets/style.css";
-import kcfTestUIstyles from "./stylesheets/kcf-test-ui.css";
+import kcfTestUIStyles from "./stylesheets/kcf-test-ui.css";
 import kcfTestTogglerStyles from "./stylesheets/kcf-test-toggler.css";
 import kcfMochaModalStyles from "./stylesheets/mocha-modal.css";
 
@@ -18,3 +18,10 @@ const shadow = (() => {
   }
   return shadow;
 })();
+const shadowStyle = document.createElement("style");
+shadowStyle.innerHTML =
+  kcfDefaultStyles +
+  kcfTestUIStyles +
+  kcfTestTogglerStyles +
+  kcfMochaModalStyles;
+shadow.appendChild(shadowStyle);
