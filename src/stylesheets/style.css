@@ -1,0 +1,19 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+h1 {
+  color: red;
+  font-size: 18px;
+}
+
+.box {
+  background-color: lightcoral;
+  border: 2px dashed black;
+}
