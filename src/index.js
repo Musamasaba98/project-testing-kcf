@@ -25,3 +25,5 @@ shadowStyle.innerHTML =
   kcfTestTogglerStyles +
   kcfMochaModalStyles;
 shadow.appendChild(shadowStyle);
+const KCFToggle = document.createElement("div");
+KCFToggle.className = "KCF_test_ui";
