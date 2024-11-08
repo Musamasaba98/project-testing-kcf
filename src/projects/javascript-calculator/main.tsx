@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
 import "./index.css";
+import ReactDOM from "react-dom/client";
 
 export function App() {
   return (
@@ -9,7 +9,8 @@ export function App() {
     </>
   );
 }
-createRoot(document.getElementById("root")).render(
+const root = ReactDOM.createRoot(document.getElementById("root")!);
+root.render(
   <StrictMode>
     <App />
   </StrictMode>
